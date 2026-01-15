@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCII Art Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>ASCII ART GENERATOR</h1>
+
+    <div class="subtitle">
+        modern tool · classic web style · 2026
+    </div>
+
+    <form method="POST" action="/">
+        <label for="text">TEXT INPUT</label>
+        <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Type something..."
+            autocomplete="off"
+        >
+
+        <button type="submit">GENERATE</button>
+    </form>
+
+    {% if output %}
+    <pre class="ascii-output">{{ output }}</pre>
+    {% endif %}
+
+    <div class="footer">
+        © 2026 · ASCII Generator · All rights reserved
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-color: #c0c0c0;
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* MAIN WINDOW */
+.container {
+    width: 760px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border: 3px ridge #808080;
+    padding: 15px;
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: darkred;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* FORM */
+form {
+    border: 2px inset #999999;
+    padding: 10px;
+    background-color: #d0d0d0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 5px;
+    border: 2px inset #808080;
+    font-family: "Courier New", monospace;
+    background-color: #ffffff;
+}
+
+/* BUTTON */
+button {
+    margin-top: 10px;
+    padding: 4px 14px;
+    border: 2px outset #808080;
+    background-color: #b0b0b0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:active {
+    border: 2px inset #808080;
+}
+
+/* ASCII OUTPUT — KEEP GREEN ON BLACK */
+.ascii-output {
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px inset #808080;
+    background-color: #000000;
+    color: #00ff00;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+    overflow-x: auto;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 11px;
+    color: #444444;
+}
